@@ -2,12 +2,12 @@ import React from 'react'
  
 export default function About() {
   return (
-    <div className="row mt-5 pt-5">
+    <div className="row mt-5 pt-5 col-10">
   <div className="col-4">
     <div id="list-example" class="list-group">
     </div>
   </div>
-  <div className="col-12 text-center">
+  <div className=" container col-6 text-center">
     <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
       <h4 id="About Me">About Me</h4>
 

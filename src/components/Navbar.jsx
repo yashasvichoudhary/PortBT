@@ -10,10 +10,8 @@ export default function Navbar() {
  
   return (
     <nav className="navbar navbar-expand-lg bg-success fixed-top" data-bs-theme="light">
-      <div className="container-fluid">
+      <div className="container">
         <a className="navbar-brand" href="/">Yashasvi's Portfolio</a>
- 
-        {/* Navbar Toggler */}
         <button
           className="navbar-toggler"
           type="button"
@@ -27,7 +25,6 @@ export default function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
  
-        {/* Collapsible Menu */}
         <div className={`collapse navbar-collapse ${toggle ? 'show' : ''}`} id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
@@ -37,7 +34,7 @@ export default function Navbar() {
               <Link to="/about" className="nav-link" onClick={handleToggle}>About</Link>
             </li>
             <li className="nav-item">
-              <Link to="/contact" className="nav-link" onClick={handleToggle}>Contact</Link> {/* Fixed spelling */}
+              <Link to="/contact" className="nav-link" onClick={handleToggle}>Contact</Link> 
             </li>
             <li className="nav-item">
               <Link to="/projects" className="nav-link" onClick={handleToggle}>Projects</Link>
